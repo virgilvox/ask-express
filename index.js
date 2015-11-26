@@ -8,7 +8,7 @@ app.post('/', function (req, res) {
       "version": "1.0",
       "response": {
         "outputSpeech": {
-          "type": "PlainText"
+          "type": "PlainText",
           "text": "Success"
         },
         "shouldEndSession": true
